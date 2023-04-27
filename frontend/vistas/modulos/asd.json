@@ -1,0 +1,89 @@
+1
+vistas/img/slide/default/back_default.jpg
+slideOpcion1
+vistas/img/slide/slide1/calzado.png
+top:15%; right:10%; width:45%
+{"top": "15%", "right": "10%", "width": "45%", "left": ""}
+
+top:20%; left:10%; width:40%
+{"top": "20%", "right": "", "width": "40%", "left": "10%"}
+
+{"texto": "Lorem Ipsum", "color": "#333"}
+
+{"texto": "Lorem ipsum dolor sit", "color": "#777"}
+
+{"texto": "Lorem ipsum dolor sit", "color": "#888"}
+
+<button class="btn btn-default backColor text-uppercase">
+
+	VER PRODUCTO <span class="fa fa-chevron-right"></span>
+
+</button>
+
+
+2
+vistas/img/slide/default/back_default.jpg
+slideOpcion2
+vistas/img/slide/slide2/curso.png
+top:5%; left:15%; width:25%
+{"top": "5%", "right": "", "width": "25%", "left": "15%"}
+
+top:15%; right:15%; width:40%
+{"top": "15%", "right": "15%", "width": "40%", "left": ""}
+
+{"texto": "Lorem Ipsum", "color": "#333"}
+
+{"texto": "Lorem ipsum dolor sit", "color": "#777"}
+
+{"texto": "Lorem ipsum dolor sit", "color": "#888"}
+
+<button class="btn btn-default backColor text-uppercase">
+
+	VER PRODUCTO <span class="fa fa-chevron-right"></span>
+
+</button>
+
+3
+vistas/img/slide/slide3/fondo2.jpg
+slideOpcion2
+vistas/img/slide/slide3/iphone.png
+top:5%; left:15%; width:25%
+{"top": "5%", "right": "", "width": "25%", "left": "15%"}
+
+top:15%; right:15%; width:40%
+{"top": "15%", "right": "15%", "width": "40%", "left": ""}
+
+{"texto": "Lorem Ipsum", "color": "#eee"}
+
+{"texto": "Lorem ipsum dolor sit", "color": "#777"}
+
+{"texto": "Lorem ipsum dolor sit", "color": "#888"}
+
+<button class="btn btn-default backColor text-uppercase">
+
+	VER PRODUCTO <span class="fa fa-chevron-right"></span>
+
+</button>
+
+4
+vistas/img/slide/slide4/fondo3.jpg
+slideOpcion1
+top:5%; right:15%; width:25%
+{"top": "5%", "right": "15%", "width": "25%", "left": ""}
+
+top:20%; left:10%; width:40%
+{"top": "20%", "right": "", "width": "40%", "left": "10%"}
+
+{"texto": "Lorem Ipsum", "color": "#333"}
+
+{"texto": "Lorem ipsum dolor sit", "color": "#777"}
+
+{"texto": "Lorem ipsum dolor sit", "color": "#888"}
+
+<button class="btn btn-default backColor text-uppercase">
+
+	VER PRODUCTO <span class="fa fa-chevron-right"></span>
+
+</button>
+
+

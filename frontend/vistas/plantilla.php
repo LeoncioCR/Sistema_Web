@@ -15,9 +15,11 @@
 
 	<?php  
 
+		$servidor = Ruta::ctrRutaServidor();
+
 		$icono = ControladorPlantilla::ctrEstiloPlantilla();
 
-		echo '<link rel="icon" href="http://localhost/backend/'.$icono["icono"].'">';
+		echo '<link rel="icon" href="'.$servidor.$icono["icono"].'">';
 
 		/*--====================================
 		   MANTENER LA RUTA FIJA DEL PROYECTO
@@ -44,6 +46,8 @@
 	<script src="<?php echo $url; ?>vistas/js/plugins/jquery.min.js"></script>
 
 	<script src="<?php echo $url; ?>vistas/js/plugins/bootstrap.min.js"></script>
+
+	<script src="<?php echo $url; ?>vistas/js/plugins/jquery.easing.js"></script>
 
 </head>
 <body>
@@ -123,6 +127,8 @@
 	<script src="<?php echo $url; ?>vistas/js/cabezote.js"></script>
 
 	<script src="<?php echo $url; ?>vistas/js/plantilla.js"></script>
+
+	<script src="<?php echo $url; ?>vistas/js/slide.js"></script>
 
 </body>
 </html>

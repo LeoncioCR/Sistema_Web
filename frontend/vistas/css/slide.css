@@ -119,13 +119,13 @@ FLECHAS
 #slide #retroceder{
 	background:#666;
 	left:0;
-	opacity: 1;
+	opacity: 0;
 }
 
 #slide #avanzar{
 	background:#666;
 	right:0;
-	opacity: 1;
+	opacity: 0;
 }
 
 #slide #retroceder:hover, #slide #avanzar:hover{
@@ -286,7 +286,7 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 }
 
 /*=============================================
-MOVIL (XS revisamos en 320px)
+		  MOVIL (XS revisamos en 320px)
 =============================================*/
 
 @media (max-width:767px){
@@ -296,23 +296,23 @@ MOVIL (XS revisamos en 320px)
 	}
 
 	#slide .slideOpciones h1{			
-		font-size:15px;	
-		margin-top:5px;
-		margin-bottom:-20px;
+		font-size: 15px;	
+		margin-top :5px;
+		margin-bottom: -20px;
 	}
 
 	#slide .slideOpciones h2{			
-		display:none;	
+		display: none;	
 	}
 
 	#slide .slideOpciones h3{	
-		font-size:10px;	
-		margin-bottom:-5px;
+		font-size: 10px;	
+		margin-bottom: -5px;
 	}
 
 	#slide .slideOpciones button{
-		padding:5px;
-		font-size:10px;
+		padding: 5px;
+		font-size: 10px;
 	}	
 	
 }
