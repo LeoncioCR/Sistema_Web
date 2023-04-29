@@ -44,4 +44,18 @@
 
 		}
 
+		/*=============================================
+					  MOSTRAR INFO-PRODUCTO
+		=============================================*/
+
+		public function ctrMostrarInfoProducto($item, $valor){
+
+			$tabla = "productos";
+
+			$respuesta = ModeloProductos::mdlMostrarInfoProducto($tabla, $item, $valor); 
+
+			return $respuesta;
+
+		}
+
 	}

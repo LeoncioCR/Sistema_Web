@@ -45,7 +45,7 @@
 
 			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $item = :$item");
 
-			$stmt -> bindParam(":".$item, $valor, PDO::PARAM_INT);
+			$stmt -> bindParam(":".$item, $valor, PDO::PARAM_STR);
 
 			$stmt -> execute();
 
@@ -87,6 +87,26 @@
 
 				$stmt = null;
 
+
+		}
+
+		/*=============================================
+					  MOSTRAR INFO-PRODUCTOS
+		=============================================*/
+
+		static public function mdlMostrarInfoProducto($tabla, $item, $valor){
+
+			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $item = :$item");
+
+			$stmt -> bindParam(":".$item, $valor, PDO::PARAM_STR);
+
+			$stmt -> execute();
+
+			return $stmt -> fetch();
+
+			$stmt -> close();
+
+			$stmt = null;
 
 		}
 
